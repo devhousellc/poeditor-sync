@@ -1,5 +1,7 @@
 # @Devhouse/poeditor-sync
 
+[![NPM](https://nodei.co/npm/@devhouse/poeditor-sync.svg?downloads=true&downloadRank=true)](https://www.npmjs.com/package/@devhouse/poeditor-sync)&nbsp;&nbsp;
+
 ##Install
 For `yarn`
 ```
