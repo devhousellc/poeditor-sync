@@ -12,16 +12,16 @@ if (_.find(process.argv, (arg) => arg === '--help')) {
         
     keys: 
         
-        --settings='./settings.json' \t\t absolute or relative path to the settings file. By default './settings'
-        --projects=references,common \t\t the project keys. By default all from config
-        --overwrite \t\t\t\t overwrite the translations on POEditor
-        --sync \t\t\t\t\t sync terms
+        --settings='./settings.json' \t\t Absolute or relative path to the settings file. By default './settings'
+        --projects=references,common \t\t The project keys. By default all from config
+        --overwrite \t\t\t 0 | 1   Set it to 1 if you want to overwrite translations. By default 0
+        --sync-terms \t\t\t 0 | 1   Set it to 1 if you want to sync your terms (terms that are not found in the uploaded file will be deleted from project and the new ones added). Ignored if updating = translations. By default 0
   `);
   process.exit(0);
 }
 
 const overwrite = !!_.find(process.argv, (arg) => arg === '--overwrite') ? 1 : 0;
-const syncTerms = !!_.find(process.argv, (arg) => arg === '--sync') ? 1 : 0;
+const syncTerms = !!_.find(process.argv, (arg) => arg === '--sync-terms') ? 1 : 0;
 const projects = lib.parseProjects(process.argv);
 const settings = lib.getSettings(process.argv);
 
