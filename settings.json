@@ -1,0 +1,15 @@
+{
+  "api_token": "0d5d5a3928c9842c13eae2baf7b6d6d7",
+  "dirName": "./",
+  "projects": [
+    {
+      "id": 209685,
+      "key": "marketplace",
+      "name": "CIE Marketplace",
+      "langCodes": [
+        "no", "sv", "en"
+      ],
+      "path": "i18n"
+    }
+  ]
+}
