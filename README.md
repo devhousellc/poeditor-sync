@@ -7,13 +7,13 @@
 For `yarn`
 
 ```
-yarn add @Devhouse/poeditor-sync
+yarn add @devhouse/poeditor-sync
 ```
 
 Or `npm`
 
 ```
-npm install @Devhouse/poeditor-sync --save-dev
+npm install @devhouse/poeditor-sync --save-dev
 ```
 
 ## Usage
